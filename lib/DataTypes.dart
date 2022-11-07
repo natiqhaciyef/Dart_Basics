@@ -34,7 +34,7 @@ void main() {
   final String cc = "String";   // tip ile tanimlamaq
 
 
-  // Type Casting
+  // Type Casting types
   var i1 = 12;
   var d1 = 12.2;
   var ss ;
