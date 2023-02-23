@@ -1,5 +1,6 @@
 
 import 'package:learning_dart/OOP/Car.dart';
+import 'package:learning_dart/OOP/EnumDetails.dart';
 import 'package:learning_dart/OOP/LateKeyword.dart';
 import 'package:learning_dart/OOP/StaticTypes.dart';
 import 'package:learning_dart/OOP/constructor/Animal.dart';
@@ -31,4 +32,12 @@ void main(){
   User.printUserId();
   print(user.username);
 
+  var size = ClothesSize.Large;
+  switch(size){
+    case ClothesSize.Extra_Large: {print("Extra large"); } break;
+    case ClothesSize.Large: {print("Large"); } break;
+    case ClothesSize.Medium: {print("Medium"); } break;
+    case ClothesSize.Small: {print("Small"); } break;
+    default: {print("None of them"); } break ;
+  }
 }
