@@ -1,6 +1,10 @@
 
 import 'package:learning_dart/OOP/Car.dart';
-import 'package:learning_dart/OOP/Animal.dart';
+import 'package:learning_dart/OOP/LateKeyword.dart';
+import 'package:learning_dart/OOP/StaticTypes.dart';
+import 'package:learning_dart/OOP/constructor/Animal.dart';
+
+import 'encapsulation/Person.dart';
 
 void main(){
   var car1 = Car();
@@ -18,5 +22,13 @@ void main(){
 
   car1.start();
   print("Speed is now : ${car1.speed}");
+
+  var access = Person();
+  access.personAge = 12;
+
+  var user = User("Natiq", 19);
+  print(User.id);
+  User.printUserId();
+  print(user.username);
 
 }
